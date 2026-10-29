@@ -1,0 +1,7 @@
+{
+    "name": "Sound Machine",
+    "version": "1.2.0",
+    "supported": "3.1.7",
+    "type": "skill",
+    "buttonColor": "#25F2FB #107799"
+}
