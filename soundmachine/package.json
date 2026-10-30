@@ -1,11 +1,11 @@
 {
   "name": "@be/soundmachine",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Relaxing sounds for sleep and focus: rain, ocean, fan, brown noise and white noise, with a sleep timer.",
   "main": "index.js",
   "config": { "standalone": true },
   "jibo": { "main": "index.html", "type": "asset-pack", "display-name": "soundmachine", "prompt": "Sound Machine" },
   "engines": { "node": ">=6.0" },
   "syncDependencies": ["jibo", "@be/be-framework"],
-  "scripts": { "test": "node tests/sound.test.js" }
+  "scripts": { "test": "node tests/sound.test.js && node tests/close-retry.test.js" }
 }
